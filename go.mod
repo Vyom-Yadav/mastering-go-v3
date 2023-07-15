@@ -1,3 +1,3 @@
-module https://github.com/Vyom-Yadav/mastering-go
+module github.com/Vyom-Yadav/mastering-go
 
-go 1.19
+go 1.20
