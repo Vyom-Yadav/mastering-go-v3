@@ -23,8 +23,8 @@ func printer(ch chan bool, i int) {
 	ch <- true
 }
 
-// BAD CODE, just for demonstration
-func main() {
+// BAD CODE, just for demonstration, race condition present, check with go run -race ......
+func main1() {
 	c := make(chan int, 1)
 
 	var waitGroup sync.WaitGroup
