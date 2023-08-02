@@ -74,7 +74,7 @@ func main1() {
 	// IMPORTANT: As the channel c is not closed,
 	// the range loop does not exit by its own.
 
-	close(ch) // If we close the channel, defauly values would be printed, if other go routines do not panic
+	close(ch) // If we close the channel, default values would be printed, if other go routines do not panic
 	time.Sleep(10000000000)
 
 	// Since we sleep and there is no data to accept, this blocks the main goroutine
