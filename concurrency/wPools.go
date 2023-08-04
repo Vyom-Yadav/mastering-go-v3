@@ -44,7 +44,7 @@ func create(n int) {
 	close(clients)
 }
 
-func main() {
+func workerPools() {
 	fmt.Println("numCpu:", size)
 	args := os.Args
 	if len(args) != 3 {
