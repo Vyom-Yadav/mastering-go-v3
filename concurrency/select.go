@@ -23,6 +23,3 @@ func gen(min, max int, createNumber chan int, end chan bool) {
 		}
 	}
 }
-
-func main() {
-}
